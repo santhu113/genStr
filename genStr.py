@@ -16,15 +16,31 @@ from pyrogram.errors import (
 )
 
 bot = Bot()
+Santhuvcplayerbot_IMG = "https://te.legra.ph/file/422292c9fb5561a9be9c6.jpg"
+--------------------🌺🌻🌹🌷--------------------------🌺🌻🌹🌷--------------
+PM_START_TEXT = """
+*👋 Hello {} !*
+✗ *𝘏𝘪 𝘯𝘦𝘯𝘶 𝘮𝘦 𝘨𝘳𝘰𝘶𝘱 Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ 𝘯𝘪*
+✗ *NANU ME GROUP LO ADD CHESUKONDI☺ NENU ADVANCE MANAGEMENT BOT NI!*
+────────────────────────
+✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Music Network!*
+"""
+
+buttons = [
+    [
+  
+         InlineKeyboardButton(text="➕𝗡𝗔𝗡𝗨 𝗔𝗗𝗗 𝗖𝗛𝗘𝗦𝗨 𝗞𝗢𝗡𝗗𝗜➕", url="http://t.me/Santhuvcplayerbot?startgroup=true"),
+    ],
+
 
 API_TEXT = """Hi {}
-Welcome to Pyrogram's `HU_STRING_SESSION` generator Bot.
+Welcome to Pyrogram's `SANTHU STRING💞` generator Bot.
 
 `Send your API_ID to Continue.`"""
 HASH_TEXT = "`Send your API_HASH to Continue.`\n\nPress /cancel to Cancel."
 PHONE_NUMBER_TEXT = (
     "`Now send your Phone number to Continue"
-    " include Country code. eg. +13124562345`\n\n"
+    " include Country code. eg. +913124562345`\n\n"
     "Press /cancel to Cancel."
 )
 
@@ -92,7 +108,7 @@ async def genStr(bot: Bot, msg: Message):
     try:
         otp = await bot.ask(
             chat.id, ("`An otp is sent to your phone number, "
-                      "Please enter otp in\n`1 2 3 4 5` format.`\n\n"
+                      "Please enter otp in\n`12345` format.`\n\n"
                       "`If Bot not sending OTP then try` /restart `cmd and again` /start `the Bot.`\n"
                       "Press /cancel to Cancel."), timeout=300)
     except TimeoutError:
@@ -133,7 +149,7 @@ async def genStr(bot: Bot, msg: Message):
         await bot.send_message(chat.id ,f"**ERROR:** `{str(e)}`")
         return await bot.sleep(msg)
     session_string = await client.export_session_string()
-    await client.send_message("me", f"#PYROGRAM #HU_STRING_SESSION\n\n```{session_string}```")
+    await client.send_message("me", f"#PYROGRAM #SANTHU STRING 💞\n\n```{session_string}```")
 
     text = "`String Session is Successfully Generated.\nClick on Button Below.`"
     reply_markup = InlineKeyboardMarkup(
@@ -153,15 +169,15 @@ async def restart(bot: Bot, msg: Message):
 async def start(_, msg: Message):
     out = f"""
 Hello {msg.from_user.mention}, this is Pyrogram Session String Generator Bot \
-which gives you `HU_STRING_SESSION` for your UserBot.
+which gives you `SANTHU STRING 💞` for your UserBot.
 
 It needs `API_ID` , `API_HASH` , `PHONE_NUMBER` and `One time Verification Code` \
 which will send to your `PHONE_NUMBER`.
-you have to put `OTP` in `1 2 3 4 5` this format.
+you have to put `OTP` in `12345` this format.
 
-(C) Author: [Krishna Singhal](https://t.me/Krishna_Singhal) and \
+(C) Author: [SANTHOSH PODILIl](https://t.me/santhu_music_bot) and \
 [UsergeTeam](https://t.me/TheUserge)
-Give a Star ⭐️ to [REPO](https://github.com/Krishna-Singhal/genStr) if you like this Bot.
+Give a JOIN to [GROUP](https://t.me/santhuvc) if you like this Bot.
 """
     await msg.reply(out, disable_web_page_preview=True)
 
