@@ -20,10 +20,10 @@ Santhuvcplayerbot_IMG = "https://te.legra.ph/file/422292c9fb5561a9be9c6.jpg"
 
 PM_START_TEXT = """
 *👋 Hello {} !*
-✗ *𝘏𝘪 𝘯𝘦𝘯𝘶 𝘮𝘦 𝘨𝘳𝘰𝘶𝘱 Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ 𝘯𝘪*
-✗ *NANU ME GROUP LO ADD CHESUKONDI☺ NENU ADVANCE MANAGEMENT BOT NI!*
+✗ *𝘏𝘪 𝘯𝘦𝘯𝘶 𝘮𝘦 𝘨𝘳𝘰𝘶𝘱 String Bᴏᴛ 𝘯𝘪*
+✗ *NANU ME GROUP LO ADD CHESUKONDI☺ NENU ADVANCE STRING BOT NI!*
 ────────────────────────
-✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Music Network!*
+✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: @santhu_music_vc!*
 """
 
 buttons = [
@@ -31,10 +31,6 @@ buttons = [
   
          InlineKeyboardButton(text="➕𝗡𝗔𝗡𝗨 𝗔𝗗𝗗 𝗖𝗛𝗘𝗦𝗨 𝗞𝗢𝗡𝗗𝗜➕", url="http://t.me/Santhuvcplayerbot?startgroup=true"),
     ],
-
-
-API_TEXT = """Hi {}
-Welcome to Pyrogram's `SANTHU STRING💞` generator Bot.
 
 `Send your API_ID to Continue.`"""
 HASH_TEXT = "`Send your API_HASH to Continue.`\n\nPress /cancel to Cancel."
