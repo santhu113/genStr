@@ -17,7 +17,7 @@ from pyrogram.errors import (
 
 bot = Bot()
 Santhuvcplayerbot_IMG = "https://te.legra.ph/file/422292c9fb5561a9be9c6.jpg"
---------------------🌺🌻🌹🌷--------------------------🌺🌻🌹🌷--------------
+
 PM_START_TEXT = """
 *👋 Hello {} !*
 ✗ *𝘏𝘪 𝘯𝘦𝘯𝘶 𝘮𝘦 𝘨𝘳𝘰𝘶𝘱 Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ 𝘯𝘪*
